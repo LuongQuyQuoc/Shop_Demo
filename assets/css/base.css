@@ -1,0 +1,225 @@
+:root {
+    --while-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62, 5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#space {
+    padding-right: 16px;
+}
+
+/* freom đăng ký đăng nhập */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    /* display: none; */
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+
+}
+
+.modal__body {
+    width: 600px;
+    /* height: 650px; */
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    border-radius: 4px;
+
+}
+
+.modal__inner {
+    padding: 10px 40px 10px 40px;
+
+}
+
+.header_modal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+
+.header_modal h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.header_modal-link {
+    text-decoration: none;
+    color: #fb4b2d;
+    font-weight: 800;
+}
+
+.body_modal-deep {
+    height: 100%;
+}
+
+.body_from {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.bodymodal_note {
+    font-size: 14px;
+    font-weight: 550;
+    text-align: center;
+    padding: 15px;
+}
+
+.bodymodal_note-click {
+    text-decoration: none;
+    color: #fb4b2d;
+}
+
+.modal_body-btn {
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    
+
+}
+
+.while-color-back {
+    color: var(--black-color);
+    
+
+}
+
+.btn-color-orange {
+    color: var(--while-color);
+    background-color: #fb4b2d;
+    border-radius: 4px;
+}
+
+.modal_footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #33333317;
+    margin-top: 10px;
+    height: 53px;
+    padding: 10px 40px 10px 40px;
+
+
+}
+.boodymodal-control{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20%;
+}
+
+#icon-modal {
+    color: var(--while-color);
+
+}
+.modal_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal_footerbtn-facebook {
+    background-color: #09008b;
+    color: var(--while-color);
+}
+
+.modal_footerbtn-google {
+    background-color: var(--while-color);
+}
+
+.modal_footerbtn-facebook,
+.modal_footerbtn-google {
+    height: 40px;
+    width: 255px;
+    border: none;
+}
+.body_modal-help{
+    display: flex;
+    justify-content: flex-end;
+}
+.modal-helplink:hover{
+    color: #fb4b2d;
+}
+.modal-helplink{
+    text-decoration: none;
+    color: #000;
+    margin-left:8px ;
+}
+/* Kết thúc from đăng ký /đăng nhập */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .icon-gg{
+    width:20% ;
+    height: 20%;
+} */
